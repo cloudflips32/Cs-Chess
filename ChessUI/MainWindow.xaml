@@ -6,7 +6,13 @@
         xmlns:local="clr-namespace:ChessUI"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+    <Grid HorizontalAlignment="Stretch" Height="NaN" VerticalAlignment="Stretch" Width="NaN">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="707*"/>
+            <ColumnDefinition Width="169*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/Board.png" />
+        </Grid.Background>
     </Grid>
 </Window>
