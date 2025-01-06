@@ -28,6 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ChessLogic\ChessLogic.csproj" />
     <ProjectReference Include="..\ClassLogic\ClassLogic.csproj" />
   </ItemGroup>
 
